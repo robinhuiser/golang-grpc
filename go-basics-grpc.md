@@ -7,4 +7,7 @@ I am following the [gRPC Basics for Go](https://grpc.io/docs/tutorials/basic/go/
 * Define a service in a `.proto` file.
 * Generate server and client code using the protocol buffer compiler.
 * Use the Go gRPC API to write a simple client and server for my service.
+* Deal with authentication
+* What about server discovery
 
+...and write a Golang **gRPC client** securely connecting to a Java **gRPC server** deployed within Docker (using docker-compose).
