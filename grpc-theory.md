@@ -167,6 +167,12 @@ When this message is encoded to the protocol buffer binary format (the text form
 
 ### Proto v3
 
+Proto3 simplifies the protocol buffer language, both for ease of use and to make it available in a wider range of programming languages: our current release lets you generate protocol buffer code in Java, C++, Python, Java Lite, Ruby, JavaScript, Objective-C, and C#.
+
+Note that the two language version (proto3 vs proto2) APIs are not completely compatible.
+
+#### What problems were solved?
+
 Protocol buffers were initially developed at Google to deal with an index server request/response protocol.
 
 Prior to protocol buffers, there was a format for requests and responses that used hand marshalling/unmarshalling of requests and responses, and that supported a number of versions of the protocol. This resulted in some very ugly code, like:
